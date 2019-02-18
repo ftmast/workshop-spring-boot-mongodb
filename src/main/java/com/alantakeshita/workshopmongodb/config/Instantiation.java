@@ -22,7 +22,7 @@ public class Instantiation implements CommandLineRunner {
 		User maria = new User(null, "Maria Brown", "maria@gmail.com");
 		User alex = new User(null, "Alex Green", "alex@gmail.com");
 		User bob = new User(null, "Bob Grey", "bob@gmail.com");
-		User alan = new User(null, "Alan Takeshita", "alan@gmail.com");
+		User alan = new User(null, "Alan Take", "alan@gmail.com");
 		
 		userRep.saveAll(Arrays.asList(maria, alex, bob, alan));
 	}
