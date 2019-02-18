@@ -2,8 +2,12 @@ package com.alantakeshita.workshopmongodb.domain;
 
 import java.io.Serializable;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="user")
 public class User implements Serializable{
 	private static final long serialVersionUID = 1L;
+	@org.springframework.data.annotation.Id
 	private String Id;
 	private String name;
 	private String email;
